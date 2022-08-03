@@ -1,0 +1,74 @@
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.grid {
+    display: grid;
+}
+
+.grid-rows-3 {
+    grid-template-rows: repeat(3, minmax(0, 1fr));
+}
+
+.relative {
+    position: relative;
+}
+
+.bg-orange {
+    background-color: #e67b13;
+}
+
+.h-500 {
+    height: 50rem;
+}
+
+.font-comfortaa {
+    font-family: comfortaa;
+}
+
+.font {
+    font-size: 3.75rem;
+}
+
+.rounded-none {
+    border-radius: 0 !important;
+}
+
+.pt-14 {
+    padding-top: 3.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 425px) {
+}
