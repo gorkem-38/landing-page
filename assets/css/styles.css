@@ -18,10 +18,6 @@
     grid-template-rows: repeat(3, minmax(0, 1fr));
 }
 
-.relative {
-    position: relative;
-}
-
 .bg-orange {
     background-color: #e67b13;
 }
@@ -34,16 +30,21 @@
     font-family: comfortaa;
 }
 
-.font {
+.text-6xl {
     font-size: 3.75rem;
+    line-height: 1;
 }
 
 .rounded-none {
     border-radius: 0 !important;
 }
 
-.pt-14 {
-    padding-top: 3.5rem;
+.pl-10 {
+    padding-left: 2.5rem;
+}
+
+.pt-12 {
+    padding-top: 3rem;  
 }
 
 
@@ -71,4 +72,5 @@
 
 
 @media screen and (max-width: 425px) {
+    
 }
