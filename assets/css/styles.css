@@ -1,76 +1,210 @@
+/* FLEX */
 .flex {
     display: flex;
 }
 
-.flex-col {
-    flex-direction: column;
+.flex-end {
+    justify-content: flex-end;
 }
 
 .justify-center {
     justify-content: center;
 }
 
-.grid {
-    display: grid;
+.flex-row-reverse {
+    flex-direction: row-reverse;
 }
 
-.grid-rows-3 {
-    grid-template-rows: repeat(3, minmax(0, 1fr));
+.flex-col {
+    flex-direction: column;
 }
+
+.justify-around {
+    justify-content: space-around;
+}
+
+.items-end {
+    align-items: flex-end;
+}
+
+/* BACKGROUND */
 
 .bg-orange {
     background-color: #e67b13;
 }
 
-.h-500 {
-    height: 50rem;
+.bg-black {
+    background-color: #292d33;
 }
+
+.bg-black2 {
+    background-color: #292a33;
+}
+
+/* COLOR */
+
+.text-white {
+    color: rgb(255 255 255);
+}
+
+/* FONT-FAMILY */
 
 .font-comfortaa {
     font-family: comfortaa;
 }
 
+/* FONT-SIZE */
+
+.text-lg {
+    font-size: 1.125rem;
+}
+
 .text-6xl {
     font-size: 3.75rem;
-    line-height: 1;
 }
+
+/* MARGIN */
+
+.m-0 {
+    margin: 0px;
+}
+
+.ml-12 {
+    margin-left: 3rem;
+}
+
+.ml-52 {
+    margin-left: 13rem;
+}
+
+.mr-8 {
+    margin-right: 2rem;
+}
+
+.mr-12 {
+    margin-right: 3rem;
+}
+
+.mr-28 {
+    margin-right: 7rem;
+}
+
+.mt-16 {
+    margin-top: 62px;
+}
+
+.mt-80 {
+    margin-top: 20rem;
+}
+
+/* PADDING */
+
+.pt-8 {
+    padding-top: 2rem;
+}
+
+.pt-16 {
+    padding-top: 4rem;
+}
+
+.pb-60 {
+    padding-bottom: 15rem;
+}
+
+.pl-16 {
+    padding-left: 4rem;
+}
+
+.pr-4 {
+    padding-right: 1rem;
+}
+
+.pl-14 {
+    padding-left: 3.5rem;
+}
+
+.pl-56 {
+    padding-left: 14rem;
+}
+
+/* HEIGHT */
+
+.h-4 {
+    height: 1rem;
+}
+
+.h-12 {
+    height: 3rem;
+}
+
+.h-67px {
+    height: 67px;
+}
+
+.h-30rem {
+    height: 30rem;
+}
+
+.h-41vh {
+    height: 41vh;
+}
+
+.h-51vh {
+    height: 51vh;
+}
+
+.h-54vh {
+    height: 54vh;
+}
+
+/* WIDTH */
+
+.w-32 {
+    width: 8rem;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.w-52 {
+    width: 13rem;
+}
+
+/* POSITION */
+
+.absolute {
+    position: absolute;
+}
+
+/* OPACITY */
+
+.opacity-25 {
+    opacity: 0.25;
+}
+
+/* BORDER */
 
 .rounded-none {
-    border-radius: 0 !important;
+    border-radius: none;
 }
 
-.pl-10 {
-    padding-left: 2.5rem;
+.border-none {
+    border-style: none;
 }
 
-.pt-12 {
-    padding-top: 3rem;  
+/* OVERFLOW */
+
+.overflow-x-hidden {
+    overflow-x: hidden;
 }
 
+/* Z-INDEX */
 
+.z-0 {
+    z-index: 0;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width: 425px) {
-    
+.z-10 {
+    z-index: 10;
 }
